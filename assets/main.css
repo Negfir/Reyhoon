@@ -1,0 +1,252 @@
+@font-face {
+  font-family: Shabnam;
+  src: url('Shabnam.eot');
+  src: url('Shabnam.eot?#iefix') format('embedded-opentype'),
+       url('Shabnam.woff') format('woff'),
+       url('Shabnam.ttf') format('truetype');
+  font-weight: normal;
+}
+      
+@font-face {
+  font-family: Shabnam;
+  src: url('Shabnam-Bold.eot');
+  src: url('Shabnam-Bold.eot?#iefix') format('embedded-opentype'),
+       url('Shabnam-Bold.woff') format('woff'),
+       url('Shabnam-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url('Shabnam-Light.eot');
+  src: url('Shabnam-Light.eot?#iefix') format('embedded-opentype'),
+       url('Shabnam-Light.woff') format('woff'),
+       url('Shabnam-Light.ttf') format('truetype');
+  font-weight: 300;
+}
+
+*{
+  font-family:"Shabnam";
+  font-size:15px;
+  color: rgb(127,127,127)
+}
+
+.main{
+	margin: 0;
+	direction: rtl;
+    margin-top: 0px;
+
+padding: 0;
+
+border: 0;
+
+vertical-align: baseline;
+
+font-family: Shabnam,Arial,Tahoma,serif;
+}
+
+
+
+
+.navbar {
+  
+    direction: rtl;
+    font-size: 1.4rem;
+    text-align: right
+    position: relative;
+    color: #fff;
+    margin-top: 0;
+    z-index: 160;
+    margin-right: 5%;
+	float:right
+}
+
+#span1:hover{
+	color: rgb(212, 0, 98);
+}
+
+hr.colored {
+	z-index: 10;
+	box-shadow: 3px 3px 3px 3px #ccc;
+	border: 0;   /* in order to override TWBS stylesheet */
+	height: 5px;
+	width:100%;
+	margin: 0 auto;
+	max-width: 94000px;
+	padding: 0;
+	clear: both;
+	background: linear-gradient(90deg, red, purple);
+	float:right
+}
+
+
+.MainPage{
+	
+	max-width: 100%;
+    max-height: 100%;
+	float:left;
+	border: 0;
+	margin: 0 ;
+	padding: 0 ;
+	height: 690px;
+	width:100%;
+	background-image: url(../Images/Pizza1.PNG), url(../Images/Pizza2.PNG), url(../Images/Pizza6.PNG);
+	background-position: left top, right top, top;
+	background-repeat: no-repeat, no-repeat, no-repeat; 
+    position: relative,relative,relative;
+	object-fit: fill;
+	clear: both	;
+	
+	
+}
+
+.m1{
+	margin-top: 6rem;
+	text-align: center;
+	font-size: 2.3rem;
+	line-height: 3rem;
+	color: black;
+	font-weight: bold;
+}
+
+
+.m2{
+	
+	margin-top: 1rem;
+	font-size: 1rem;
+	line-height: 2rem;
+	max-width: 100%;
+	text-align: center;	
+	font-weight: bold;
+}
+
+.img1{
+	margin-top: 5rem;
+	border: 0;
+	padding: 0;
+	width: 180px;
+	position: center;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	
+}
+
+.searchBox {
+	box-shadow: 3px 3px 5px 1px #ccc;
+	margin-top: 1rem;
+	margin-left: auto;
+    margin-right: auto;
+	position: center;
+	border-radius: 9px;
+	background: white;
+	padding: 3px; 
+	width: 800px;
+	height: 75px;  
+}
+
+.m3{
+	outline: none;
+	padding-right: 5rem;
+padding-left: 0;
+box-sizing: border-box;
+font-size: 1.8rem;
+width: 100%;
+border-left: 0;
+border-right: 0;
+height: 6rem;
+width: 24rem;
+background-color: transparent;
+margin-left: auto;
+    margin-right: auto;
+	position: center;
+}
+
+s1{
+margin-right: 40px;
+}
+
+.m4[type=text] {
+	background: url(../Images/search.png),url(../Images/Loc.png);
+	height: 0.01px; /* You must set a specified height */
+	background-position: left, right; /* Center the image */
+	background-repeat: no-repeat, no-repeat;
+	background-size: 10% 100% , 8% 100%;
+	position: relative;
+	object-fit: fill;
+	clear: both	;
+	 position: relative;
+	 top: -5.5px;
+	float:left;
+	z-index: +1;
+  width: 77%;
+  height: 4.2rem;
+  padding: 15px 50px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid rgb(210, 210, 210);
+  border-radius: 4px;
+  margin-left: 9px;
+  border-radius: 9px;
+  font-size:20px;
+  
+}
+.m5[type=text] {
+	background: url(../Images/drop.png);
+	
+	background-position: right; /* Center the image */
+	background-repeat: no-repeat;
+	background-size: 30% 80%;
+	 position: relative;
+	 top: -5.5px;
+	float:left;
+	z-index: +10;
+  width: 20%;
+  height: 4.2rem;
+  padding: 0px 50px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid rgb(210, 210, 210);
+  border-radius: 4px;
+  margin-left: 7px;
+ border-radius: 9px;
+ color: black;
+ font-size:20px;
+ 
+  
+}
+
+.para{
+	position: relative;
+	top: 4px;
+	z-index: +20;
+	float:right;
+	font-size: 0.8rem;
+	line-height: 0.2rem;
+	max-width: 100%;
+	text-align: center;	
+	background-color: white;
+	margin-right: 190px;
+}
+.hist{
+width: 0.1rem;
+color: #fff;
+
+vertical-align: middle;
+
+height: 1.5rem;
+}
+  
+  
+.m6{
+	
+	margin-top: 1rem;
+	font-size: 0.9rem;
+	line-height: 2rem;
+	max-width: 100%;
+	text-align: right;	
+	text-decoration: underline;
+}
+.m6:hover{
+	color: rgb(212, 0, 98);
+}
