@@ -34,13 +34,13 @@
 .main{
 	margin: 0;
 	direction: rtl;
-    margin-top: 0px;
+   
 	
 
 padding: 0;
 
 border: 0;
-
+float:left;
 vertical-align: baseline;
 
 font-family: Shabnam,Arial,Tahoma,serif;
@@ -262,7 +262,7 @@ height: 1.5rem;
 	border: 0;
 	margin: 0 ;
 	padding: 0 ;
-	height: 700px;
+	height: 400px;
 	width:100%;
 	background-color: rgb(250, 250, 250);
 	float:left;
@@ -400,11 +400,11 @@ clear:none;
 
 #container2 {
 	
-	margin-top: 100px;
+	margin-top: 50px;
 	position:absolute;
 	left: 0;
 right: 0;
-	margin: 100px;
+	margin: 50px;
 		
     height: 125px;
     
@@ -466,6 +466,20 @@ right: 0;
 	background-color: rgb(255, 255, 255);
 }
 
+.recomm{
+	margin-left: auto;
+    margin-right: auto;
+	max-width: 100%;
+    max-height: 100%;
+	border: 0;
+	margin: 0 ;
+	padding: 0 ;
+	height: 700px;
+	width:100%;
+	background-color: rgb(250, 250, 250);
+	float:left;
+clear:none;}
+
 #container2:after {
     content: '';
     width: 100%;
@@ -473,3 +487,405 @@ right: 0;
     font-size: 0;
     line-height: 0
 }
+
+.shoro{
+	position: absolute;
+	 margin-top: 325px;
+	 margin-right: 108px;
+	border-radius: 20px;
+    height:36px;
+    width:150px;
+    border:1px solid rgb(212, 0, 98);
+	background: white;
+
+}
+
+
+.shoroP{
+		
+	text-align: center;
+	font-size: 1rem;
+	line-height: 2px;
+	color: rgb(212, 0, 98);
+	
+}
+
+.box4:hover .shoro{
+	background-color: rgb(253, 242, 247);
+}
+.box4:hover{
+	box-shadow: 3px 3px 20px 5px #ccc;
+}
+
+.box5:hover .shoro{
+	background-color: rgb(253, 242, 247);
+}
+.box5:hover{
+	box-shadow: 3px 3px 20px 5px #ccc;
+}
+
+
+.box6:hover .shoro{
+	background-color: rgb(253, 242, 247);
+}
+.box6:hover{
+	box-shadow: 3px 3px 20px 5px #ccc;
+}
+
+
+.part4{	
+	max-width: 100%;
+    max-height: 100%;
+	float:left;
+	border: 0;
+	margin: 0 ;
+	padding: 0 ;
+	height: 720px;
+	width:100%;
+	background-image: url(../Images/back4.jpg);
+	background-position: top;
+	background-repeat: no-repeat; 
+	background-size: 1650px 720px;
+    position: relative;
+	object-fit: fill;
+	clear: both	;
+	
+}
+
+#contS{
+margin-right:100px;
+margin-top:0px;
+}
+
+#cont {
+	margin-top:20px;
+	margin-bottom:50px;
+	float:right;
+	clear: both;
+	height: 125px;
+	width: 500px;
+    
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+    
+    /* just for demo */
+    min-width: 612px;
+}
+
+#contt {
+	margin-top:80px;
+	word-wrap: normal;
+	float:right;
+	clear: both;
+	height: 125px;
+	width: 500px;
+    
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+    
+    /* just for demo */
+    min-width: 612px;
+}
+
+
+.r1{
+	word-wrap: normal;
+	border:0.05px solid rgb(180, 180, 180);
+	background: url(../Images/r1.png);
+	height: 0.01px;
+	background-position:right;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-color: rgb(255, 255, 255);
+	
+    width: 90px;
+    height: 90px;
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1	
+}
+
+.r1:hover{
+	box-shadow: 3px 3px 20px 5px #ccc;
+}
+
+
+.r2{
+	border:0.05px solid rgb(180, 180, 180);
+	background: url(../Images/r2.png);
+	height: 0.01px;
+	background-position:right;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-color: rgb(255, 255, 255);
+	
+    width: 90px;
+    height: 90px;
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1	
+}
+
+.r2:hover{
+	box-shadow: 3px 3px 20px 5px #ccc;
+}
+
+.r3{
+	border:0.05px solid rgb(180, 180, 180);
+	background: url(../Images/r3.png);
+	height: 0.01px;
+	background-position:right;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-color: rgb(255, 255, 255);
+	
+    width: 90px;
+    height: 90px;
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1	
+}
+
+.r3:hover{
+	box-shadow: 3px 3px 20px 5px #ccc;
+}
+
+.r4{
+	border:0.05px solid rgb(180, 180, 180);
+	background: url(../Images/r4.png);
+	height: 0.01px;
+	background-position:right;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-color: rgb(255, 255, 255);
+	
+    width: 90px;
+    height: 90px;
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1	
+}
+
+.r4:hover{
+	box-shadow: 3px 3px 20px 5px #ccc;
+}
+
+#cont:after {
+    content: '';
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+#contt:after {
+    content: '';
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+
+
+
+.r5{
+	border:0.05px solid rgb(180, 180, 180);
+	background: url(../Images/r5.png);
+	height: 0.01px;
+	background-position:right;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-color: rgb(255, 255, 255);
+	
+    width: 90px;
+    height: 90px;
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1	
+}
+
+.r5:hover{
+	box-shadow: 3px 3px 20px 5px #ccc;
+}
+
+
+.r6{
+	border:0.05px solid rgb(180, 180, 180);
+	background: url(../Images/r6.png);
+	height: 0.01px;
+	background-position:right;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-color: rgb(255, 255, 255);
+	
+    width: 90px;
+    height: 90px;
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1	
+}
+
+.r6:hover{
+	box-shadow: 3px 3px 20px 5px #ccc;
+}
+
+.r7{
+	border:0.05px solid rgb(180, 180, 180);
+	background: url(../Images/r7.png);
+	height: 0.01px;
+	background-position:right;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-color: rgb(255, 255, 255);
+	
+    width: 90px;
+    height: 90px;
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1	
+}
+
+.r7:hover{
+	box-shadow: 3px 3px 20px 5px #ccc;
+}
+
+.r8{
+	border:0.05px solid rgb(180, 180, 180);
+	background: url(../Images/r8.png);
+	height: 0.01px;
+	background-position:right;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-color: rgb(255, 255, 255);
+	
+    width: 90px;
+    height: 90px;
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1	
+}
+
+.r8:hover{
+	box-shadow: 3px 3px 20px 5px #ccc;
+}
+
+
+.r9{
+	border:0.05px solid rgb(180, 180, 180);
+	background: url(../Images/r9.png);
+	height: 0.01px;
+	background-position:right;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-color: rgb(255, 255, 255);
+	
+    width: 90px;
+    height: 90px;
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1	
+}
+
+.r9:hover{
+	box-shadow: 3px 3px 20px 5px #ccc;
+}
+
+.r10{
+	overflow-wrap:: normal;
+	word-wrap: normal;
+	border:0.05px solid rgb(180, 180, 180);
+	background: url(../Images/r10.png);
+	height: 0.01px;
+	background-position:right;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-color: rgb(255, 255, 255);
+	
+    width: 90px;
+    height: 90px;
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1	
+}
+
+.r10:hover{
+	box-shadow: 3px 3px 20px 5px #ccc;
+}
+
+
+.r11{
+	border:0.05px solid rgb(180, 180, 180);
+	background: url(../Images/r11.png);
+	height: 0.01px;
+	background-position:right;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-color: rgb(255, 255, 255);
+	
+    width: 90px;
+    height: 90px;
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1	
+}
+
+.r11:hover{
+	box-shadow: 3px 3px 20px 5px #ccc;
+}
+
+.r12{
+	border:0.05px solid rgb(180, 180, 180);
+	background: url(../Images/r12.png);
+	height: 0.01px;
+	background-position:right;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-color: rgb(255, 255, 255);
+	
+    width: 90px;
+    height: 90px;
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1	
+}
+
+.r12:hover{
+	box-shadow: 3px 3px 20px 5px #ccc;
+}
+
+
+.h4{
+	text-align: right;
+	margin-top: 80px;
+	margin-right: 70px;
+	font-size: 1.7rem;
+	line-height: 3rem;
+	color: black;
+	background-color: transparent;
+	
+}
+
+.rP{
+	verflow-wrap:: normal;
+	word-wrap: normal;
+	text-align: center;
+	margin-top: 6rem;
+	font-size: 1.1rem;
+	line-height: 2rem;
+	color: rgb(60, 60, 60);
+	
+}
+
