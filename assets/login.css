@@ -28,7 +28,9 @@
 *{
   font-family:"Shabnam";
   font-size:15px;
-  color: rgb(127,127,127)
+  color: rgb(127,127,127);
+    margin: 0;
+  padding: 0;
 }
 
 .main{
@@ -244,7 +246,7 @@ hr.line {
 .vorodP{	
 	z-index:15;
 	position: absolute;
-	top: 10%;
+	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: center;

@@ -53,7 +53,7 @@ font-family: Shabnam,Arial,Tahoma,serif;
   
     direction: rtl;
     font-size: 1.4rem;
-    text-align: right
+    text-align: right;
     position: relative;
     color: #fff;
     margin-top: 0;
@@ -1800,4 +1800,32 @@ hr.yellow {
     display: inline-block;
     font-size: 0;
     line-height: 0
+}
+
+
+[tooltip]:before {
+    /* needed - do not touch */
+    content: attr(tooltip);
+    position: absolute;
+    opacity: 0;
+    
+    /* customizable */
+    transition: all 1s ease;
+    padding: 10px;
+    color: black;
+    border:1px solid black;    
+}
+
+[tooltip]:hover:before {
+    /* needed - do not touch */
+    opacity: 1;
+    
+    /* customizable */
+    background: white;
+    margin-top: 50px;
+    margin-left: -60px;    
+}
+
+[tooltip]:not([tooltip-persistent]):before {
+    pointer-events: none;
 }
